@@ -1,0 +1,29 @@
+{
+  "name": "fabric-mockups",
+  "version": "1.0.0",
+  "description": "Basic setup to create mockups using Office UI Fabric framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prod": "webpack --optimize-minimize --define process.env.NODE_ENV='production'",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "office-ui-fabric-react": "^4.24.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.0",
+    "@types/react": "^15.6.0",
+    "@types/react-dom": "^15.5.1",
+    "awesome-typescript-loader": "^3.2.2",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.4.2",
+    "webpack": "^3.4.1"
+  }
+}
