@@ -4,10 +4,23 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <title>Office UI Fabric Mockups</title>
+        <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/4.1.0/css/fabric.min.css">
         <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>
-        <div id="app"></div>
+
+        <div class="ms-Grid">
+            <div class="ms-Grid-row">
+                <div class="ms-Grid-col ms-u-sm12">
+                    <div id="navigation"></div>
+                </div>
+            </div>
+            <div class="ms-Grid-row">
+                <div class="ms-Grid-col ms-u-sm12">
+                    <div id="main"></div>
+                </div>
+            </div>
+        </div>
 
         <!-- Dependencies -->
         <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
